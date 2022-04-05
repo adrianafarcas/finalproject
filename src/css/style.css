@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+a, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    
+}
+
+h2 {
+    margin: 100px;
+}
+
+footer {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#welcome {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

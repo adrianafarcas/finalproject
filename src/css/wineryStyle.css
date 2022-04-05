@@ -1,0 +1,18 @@
+p {
+    padding: 30px;
+    line-height: 1.6;
+    font-size: larger;
+}
+
+/* .container{
+    display: flex;
+    margin: 20px;
+} */
+
+.pics {
+    height: 400px;
+}
+
+#logo{
+    height: 250px;
+}

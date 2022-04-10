@@ -8,7 +8,6 @@ import { Route, Routes, BrowserRouter } from "react-router-dom";
 import WineryContainer from "./Components/winery/WineryContainer";
 import RestaurantContainer from "./Components/restaurant/RestaurantContainer.js"
 import AppContainer from "./Components/AppContainer";
-import ProductsContainer from "./Components/products/ProductsContainer";
 import ContactContainer from "./Components/contact/ContactContainer";
 
 function App() {
@@ -18,11 +17,10 @@ function App() {
         <h2 className="col-3" id="welcome">
           Weingut am Löwenkopf
         </h2>
-        <Nav className="me-auto">
+        <Nav className="ms-5">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="winery">Winery</Nav.Link>
           <Nav.Link href="restaurant">Restaurant</Nav.Link>
-          <Nav.Link href="our-wines">Our Wines</Nav.Link>
           <Nav.Link href="contact">Contact</Nav.Link>
         </Nav>
       </Navbar>
@@ -32,7 +30,6 @@ function App() {
           <Route path="/" element={<AppContainer />} />
           <Route path="winery" element={<WineryContainer />} />
           <Route path="restaurant" element={<RestaurantContainer />} />
-          <Route path="our-wines" element={<ProductsContainer />} />
           <Route path="contact" element={<ContactContainer />} />
         </Routes>
       </BrowserRouter>

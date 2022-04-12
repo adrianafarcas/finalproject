@@ -1,8 +1,3 @@
-// TO DO:
-// 2. Make all fields madatory
-// 3. Make a "Message sent" in UI
-
-
 import React, { useState } from "react";
 import "../../css/contactStyle.css";
 import axios from "axios";
